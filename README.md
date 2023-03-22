@@ -1,3 +1,3 @@
 # Documentação CRUD-Generator
 
-Acesse:
+Acesse: https://gpacianotto.github.io/CRUD-generator-Docs/
