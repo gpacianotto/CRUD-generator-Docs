@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/CRUD-generator-Docs/static/css/main.4e891d9f.css",
+    "main.js": "/CRUD-generator-Docs/static/js/main.2e4731e3.js",
+    "static/js/787.d37de791.chunk.js": "/CRUD-generator-Docs/static/js/787.d37de791.chunk.js",
+    "static/media/database-example1.png": "/CRUD-generator-Docs/static/media/database-example1.37f490739adcfd73a538.png",
+    "static/media/logo.svg": "/CRUD-generator-Docs/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/CRUD-generator-Docs/index.html",
+    "main.4e891d9f.css.map": "/CRUD-generator-Docs/static/css/main.4e891d9f.css.map",
+    "main.2e4731e3.js.map": "/CRUD-generator-Docs/static/js/main.2e4731e3.js.map",
+    "787.d37de791.chunk.js.map": "/CRUD-generator-Docs/static/js/787.d37de791.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e891d9f.css",
+    "static/js/main.2e4731e3.js"
+  ]
+}
