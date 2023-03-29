@@ -19,18 +19,18 @@ export default function Intro() {
                 </p>
 
                 <p className="font-sans-serif">
-                    Cada abstração criada no CRUD-Generator permite criar tabelas no banco de dados principal relacionando cada tabela com sua respectiva abstração.
+                    Cada abstração criada no CRUD-Generator permite gerar tabelas no banco de dados principal relacionando cada tabela com sua respectiva abstração.
                 </p>
 
 
                 <div className="text-center">
-                    <img src={DataBaseExampleImage} style={{width: "700px"}}></img>
+                    <img src={DataBaseExampleImage} style={{width: "800px"}}></img>
                 </div>
                 
 
                 <p className="font-sans-serif">
 
-                    Em outras palavras, CRUD-Generator fragmenta seu próprio banco de dados em bancos de dados menores. Cada Fragmento pertence a um sistema cadastrado no CRUD-Generator.
+                    Em outras palavras, CRUD-Generator fragmenta seu próprio banco de dados em bancos de dados menores. Cada fragmento pertence a um sistema cadastrado no CRUD-Generator.
                 </p>
 
                 <br></br>
