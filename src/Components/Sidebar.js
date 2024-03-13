@@ -14,7 +14,7 @@ export default function Sidebar() {
           <Link className='nav-link' to="/intro">Introdução</Link>
         </li>
         <li className="nav-item">
-            <Link className='nav-link' to="/start">Primeiros Passos</Link>
+            <Link className='nav-link' to="/first-steps">Primeiros Passos</Link>
         </li>
 
         <li className="nav-item">
@@ -25,7 +25,17 @@ export default function Sidebar() {
             <Link className='nav-link' to="/dotenv">Variáveis de Ambiente</Link>
         </li>
 
-        
+        <li className="nav-item">
+            <Link className='nav-link' to="/starting-app">Iniciando Aplicação</Link>
+        </li>
+
+        <li className="nav-item">
+            <Link className='nav-link' to="/front-operations">Painel de Controle</Link>
+        </li>
+
+        <li className="nav-item">
+            <Link className='nav-link' to="/create-subsystem">Criar Subsistema</Link>
+        </li>
         
       </ul>
     </div>

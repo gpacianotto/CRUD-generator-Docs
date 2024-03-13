@@ -14,6 +14,9 @@ import Intro from './Pages/Intro';
 import Start from './Pages/Start';
 import DotEnv from './Pages/Dotenv';
 import RDBMSList from './Pages/RDBMSList';
+import StartingApp from './Pages/StartingApp';
+import FrontOperations from './Pages/FrontOperations';
+import CreateSubsystem from './Pages/CreateSubsystem';
 
 
 function App() {
@@ -25,9 +28,12 @@ function App() {
           <Routes>
 
             <Route path="/intro" element={<Intro/>}/>
-            <Route path='/start' element={<Start/>}/>
+            <Route path='/first-steps' element={<Start/>}/>
             <Route path='/rdbms-list' element={<RDBMSList/>}/>
             <Route path='/dotenv' element={<DotEnv/>}/>
+            <Route path='/starting-app' element={<StartingApp/>}/>
+            <Route path='/front-operations' element={<FrontOperations/>}/>
+            <Route path='/create-subsystem' element={<CreateSubsystem/>}/>
             
           </Routes>
         </div>

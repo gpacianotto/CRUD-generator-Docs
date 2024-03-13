@@ -95,7 +95,7 @@ export default function DotEnv() {
                 <br/><br/>
 
                 <p className="font-sans-serif">
-                Essa variável de ambiente especifica qual será o número identificador do sistema raiz (root). Recomenda-se que, após sua definição, o número identificador não seja mais alterado, pois este ID será sempre utilizado para realizar operações com o sistema raiz.<br/><br/>
+                Essa variável de ambiente especifica qual será o número identificador do sistema root (que é uma abstração do Painel de Controle do CRUD-Generator). Recomenda-se que, após sua definição, o número identificador não seja mais alterado, pois este ID será sempre utilizado para realizar operações com o sistema raiz.<br/><br/>
                 
                 
 
