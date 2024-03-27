@@ -24,7 +24,7 @@ export default function Intro() {
 
 
                 <div className="text-center">
-                    <img src={DataBaseExampleImage} style={{width: "800px"}}></img>
+                    <img src={DataBaseExampleImage} style={{width: "100%", height: "100%"}}></img>
                 </div>
                 
 
@@ -42,7 +42,7 @@ export default function Intro() {
                     CRUD-Generator funciona exatamente como um Backend as a Service, porém com uma diferença. Backends as a Service são sistemas que rodam em servidores web, enquanto que o CRUD-Generator foi projetado para rodar na máquina do desenvolvedor.
                 </p>
                 <p className="font-sans-serif">
-                    Portanto, este software tem como objetivo ser uma ferramenta de testes para desenvolvedores que desejam projetar um frontend e ter um backend funcional de apoio para o projeto.
+                    Portanto, este software tem como objetivo ser uma ferramenta que auxilia na prototipação de interfaces frontend, bem como auxiliar na criação de esboços de aplicações backend.
                 </p>
                 <br></br>
                 <h3 className="font-sans-serif" style={{fontWeight: "700", color: "red"}}>ATENÇÃO!</h3>

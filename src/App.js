@@ -29,7 +29,7 @@ function App() {
 
             <Route path="/intro" element={<Intro/>}/>
             <Route path='/first-steps' element={<Start/>}/>
-            <Route path='/rdbms-list' element={<RDBMSList/>}/>
+            {/* <Route path='/rdbms-list' element={<RDBMSList/>}/> */}
             <Route path='/dotenv' element={<DotEnv/>}/>
             <Route path='/starting-app' element={<StartingApp/>}/>
             <Route path='/front-operations' element={<FrontOperations/>}/>

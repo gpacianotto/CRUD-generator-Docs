@@ -17,9 +17,15 @@ export default function Start() {
                 <h3 className="font-sans-serif" style={{fontWeight: "700"}}>Pré-requisitos</h3>
                 <hr></hr>
 
+                {/* <p className="font-sans-serif">
+                    Para executar uma instância do CRUD-Generator é necessário ter instalado o <a href="https://nodejs.org/en" target="_blank">Node.js</a>.
+                </p> */}
+
+
                 <p className="font-sans-serif">
                     Para executar uma instância do CRUD-Generator é necessário ter instalado o <a href="https://nodejs.org/en" target="_blank">Node.js</a>.
-                </p>
+                </p> 
+                
 
                 <br></br>
 

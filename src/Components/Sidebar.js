@@ -17,9 +17,9 @@ export default function Sidebar() {
             <Link className='nav-link' to="/first-steps">Primeiros Passos</Link>
         </li>
 
-        <li className="nav-item">
+        {/* <li className="nav-item">
             <Link className='nav-link' to="/rdbms-list">SGBD's suportados</Link>
-        </li>
+        </li> */}
 
         <li className="nav-item">
             <Link className='nav-link' to="/dotenv">Variáveis de Ambiente</Link>
