@@ -1,6 +1,7 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { Row, Col, Button, Offcanvas, OffcanvasHeader, OffcanvasBody } from 'reactstrap';
 import './Sidebar.css'
+import GroupNav from './GroupNav';
 
 export default function Sidebar() {
 
@@ -13,21 +14,46 @@ export default function Sidebar() {
           {/* <a className="nav-link active" href="#section1">Section 1</a> */}
           <Link className='nav-link' to="/intro">Introdução</Link>
         </li>
-        <li className="nav-item">
-            <Link className='nav-link' to="/first-steps">Primeiros Passos</Link>
-        </li>
+        
 
-        {/* <li className="nav-item">
-            <Link className='nav-link' to="/rdbms-list">SGBD's suportados</Link>
-        </li> */}
+        <GroupNav title="Execução sem Docker">
+            <li className="nav-item">
+                <Link className='nav-link' to="/first-steps" style={{fontWeight: 400}}>
+                    Primeiros Passos
+                </Link>
+            </li>
+            <li className="nav-item">
+                <Link className='nav-link' to="/rdbms-list" style={{fontWeight: 400}}>
+                    SGBD's suportados
+                </Link>
+            </li> 
+            <li className="nav-item">
+                <Link className='nav-link' to="/dotenv" style={{fontWeight: 400}}>
+                    Variáveis de Ambiente
+                </Link>
+            </li>
 
-        <li className="nav-item">
-            <Link className='nav-link' to="/dotenv">Variáveis de Ambiente</Link>
-        </li>
+            <li className="nav-item">
+                <Link className='nav-link' to="/starting-app" style={{fontWeight: 400}}>
+                    Iniciando Aplicação
+                </Link>
+            </li>
+        </GroupNav>
 
-        <li className="nav-item">
-            <Link className='nav-link' to="/starting-app">Iniciando Aplicação</Link>
-        </li>
+        <GroupNav title="Execução com Docker">
+
+            <li className="nav-item">
+                <Link className='nav-link' to="/dotenv-docker" style={{fontWeight: 400}}>
+                    Variáveis de Ambiente
+                </Link>
+            </li>
+
+            <li className="nav-item">
+                <Link className='nav-link' to="/starting-app-with-docker" style={{fontWeight: 400}}>
+                    Iniciando aplicação
+                </Link>
+            </li>
+        </GroupNav>
 
         <li className="nav-item">
             <Link className='nav-link' to="/front-operations">Painel de Controle</Link>

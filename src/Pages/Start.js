@@ -17,10 +17,6 @@ export default function Start() {
                 <h3 className="font-sans-serif" style={{fontWeight: "700"}}>Pré-requisitos</h3>
                 <hr></hr>
 
-                {/* <p className="font-sans-serif">
-                    Para executar uma instância do CRUD-Generator é necessário ter instalado o <a href="https://nodejs.org/en" target="_blank">Node.js</a>.
-                </p> */}
-
 
                 <p className="font-sans-serif">
                     Para executar uma instância do CRUD-Generator é necessário ter instalado o <a href="https://nodejs.org/en" target="_blank">Node.js</a>.
@@ -45,7 +41,7 @@ export default function Start() {
                     Para que o CRUD-Generator rode em seu computador, é necessário instalar algumas dependências que o projeto utiliza para funcionar. Para isso, abra um terminal na pasta raíz do projeto e rode os seguintes comandos:
                 </p>
 
-                <SyntaxHighlighter language="bash" >
+                <SyntaxHighlighter language="shell" >
                     {`npm install`}
                 </SyntaxHighlighter>
 

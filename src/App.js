@@ -17,6 +17,8 @@ import RDBMSList from './Pages/RDBMSList';
 import StartingApp from './Pages/StartingApp';
 import FrontOperations from './Pages/FrontOperations';
 import CreateSubsystem from './Pages/CreateSubsystem';
+import StartDocker from './Pages/StartDocker';
+import DotEnvDocker from './Pages/DotenvDocker';
 
 
 function App() {
@@ -29,11 +31,13 @@ function App() {
 
             <Route path="/intro" element={<Intro/>}/>
             <Route path='/first-steps' element={<Start/>}/>
-            {/* <Route path='/rdbms-list' element={<RDBMSList/>}/> */}
+            <Route path='/rdbms-list' element={<RDBMSList/>}/>
             <Route path='/dotenv' element={<DotEnv/>}/>
+            <Route path='/dotenv-docker' element={<DotEnvDocker/>}/>
             <Route path='/starting-app' element={<StartingApp/>}/>
             <Route path='/front-operations' element={<FrontOperations/>}/>
             <Route path='/create-subsystem' element={<CreateSubsystem/>}/>
+            <Route path='/starting-app-with-docker' element={<StartDocker/>}/>
             
           </Routes>
         </div>

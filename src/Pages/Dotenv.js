@@ -84,7 +84,22 @@ export default function DotEnv() {
 
                 <br></br>
 
-                <h3 className="font-sans-serif" style={{fontWeight: "700"}}>6. ROOT_SYSTEM_ID</h3>
+                <h3 className="font-sans-serif" style={{fontWeight: "700"}}>6. APP_PORT</h3>
+                <hr></hr>
+
+                <SyntaxHighlighter language="dot" >
+                    {`APP_PORT=3344`}
+                </SyntaxHighlighter>
+
+                <p className="font-sans-serif">
+                Essa variável de ambiente determina qual porta o CRUD Generator irá estar disponível em seu computador para requisições HTTP
+                
+                <br/> <br/> <b>Atenção:</b> coloque este valor sempre com aspas simples, mesmo sendo ele um valor inteiro.
+                </p>
+
+                <br></br>
+
+                <h3 className="font-sans-serif" style={{fontWeight: "700"}}>7. ROOT_SYSTEM_ID</h3>
                 <hr></hr>
 
                 <SyntaxHighlighter language="dot" >
