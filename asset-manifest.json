@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CRUD-generator-Docs/static/css/main.b4a12871.css",
-    "main.js": "/CRUD-generator-Docs/static/js/main.0e9b3cfa.js",
+    "main.js": "/CRUD-generator-Docs/static/js/main.9f7fded9.js",
     "static/js/787.d37de791.chunk.js": "/CRUD-generator-Docs/static/js/787.d37de791.chunk.js",
     "static/media/screenshot-1.png": "/CRUD-generator-Docs/static/media/screenshot-1.d5ce1d37fdeb3ba11c97.png",
     "static/media/screenshot-5.png": "/CRUD-generator-Docs/static/media/screenshot-5.143810d86d0cf368db3c.png",
@@ -14,11 +14,11 @@
     "static/media/logo.svg": "/CRUD-generator-Docs/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/CRUD-generator-Docs/index.html",
     "main.b4a12871.css.map": "/CRUD-generator-Docs/static/css/main.b4a12871.css.map",
-    "main.0e9b3cfa.js.map": "/CRUD-generator-Docs/static/js/main.0e9b3cfa.js.map",
+    "main.9f7fded9.js.map": "/CRUD-generator-Docs/static/js/main.9f7fded9.js.map",
     "787.d37de791.chunk.js.map": "/CRUD-generator-Docs/static/js/787.d37de791.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b4a12871.css",
-    "static/js/main.0e9b3cfa.js"
+    "static/js/main.9f7fded9.js"
   ]
 }
