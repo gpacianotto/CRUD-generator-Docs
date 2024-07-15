@@ -58,10 +58,14 @@ export default function Sidebar() {
         <li className="nav-item">
             <Link className='nav-link' to="/front-operations">Painel de Controle</Link>
         </li>
-
+        
         <li className="nav-item">
-            <Link className='nav-link' to="/create-subsystem">Criar Subsistema</Link>
+            <Link className='nav-link' to="/video-tutorial">Tutorial em Vídeo</Link>
         </li>
+
+        {/* <li className="nav-item">
+            <Link className='nav-link' to="/create-subsystem">Criar Subsistema</Link>
+        </li> */}
         
       </ul>
     </div>

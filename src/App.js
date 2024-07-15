@@ -19,6 +19,7 @@ import FrontOperations from './Pages/FrontOperations';
 import CreateSubsystem from './Pages/CreateSubsystem';
 import StartDocker from './Pages/StartDocker';
 import DotEnvDocker from './Pages/DotenvDocker';
+import Tutorials from './Pages/Tutorials';
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
             <Route path='/front-operations' element={<FrontOperations/>}/>
             <Route path='/create-subsystem' element={<CreateSubsystem/>}/>
             <Route path='/starting-app-with-docker' element={<StartDocker/>}/>
+            <Route path='/video-tutorial' element={<Tutorials/>}/>
             
           </Routes>
         </div>
